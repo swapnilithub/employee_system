@@ -49,7 +49,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     public boolean deleteEmployee(Long id) {
         EmployeeEntity employee = employeeRepository.findById(id).get();
         employeeRepository.delete(employee);
-                return true;
+                return true ;
     }
 
 
